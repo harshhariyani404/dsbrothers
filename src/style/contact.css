@@ -1,0 +1,156 @@
+/* Contact Wrapper */
+.container {
+  max-width: 1000px;
+  margin: 4rem auto;
+  padding: 3rem 2rem;
+  background-color: #fdf9f2;
+  border-radius: 20px;
+  display: flex;
+  gap: 3rem;
+  flex-wrap: wrap;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Info Section */
+.info-section {
+  flex: 1 1 300px;
+  min-width: 280px;
+}
+
+.info-section h2 {
+  font-size: 2rem;
+  color: #bfa760;
+  margin-bottom: 1rem;
+}
+
+.info-section p {
+  color: #3a2c1c;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+}
+
+.info-section div {
+  font-size: 1rem;
+  color: #3a2c1c;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+/* Contact Form */
+.contact-form {
+  flex: 1 1 300px;
+  min-width: 280px;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.form-group {
+  position: relative;
+  margin-top: 1rem;
+}
+
+input,
+textarea {
+  width: 90%;
+  padding: 1.2rem 1rem 0.6rem;
+  border: 1px solid #e6cfc1;
+  border-radius: 12px;
+  font-size: 1rem;
+  background: #fff;
+  color: #3a2c1c;
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+input:focus,
+textarea:focus {
+  border-color: #bfa760;
+}
+
+/* Floating Label */
+label {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  font-size: 1rem;
+  color: #999;
+  background: #fff;
+  padding: 0 0.3rem;
+  pointer-events: none;
+  transition: all 0.2s ease;
+}
+
+input:focus + label,
+input:not(:placeholder-shown) + label,
+textarea:focus + label,
+textarea:not(:placeholder-shown) + label {
+  top: 0.4rem;
+  font-size: 0.8rem;
+  color: #bfa760;
+}
+
+/* Submit Button */
+button {
+  padding: 1rem;
+  background-color: #bfa760;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background-color: #a9904e;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+  .container {
+    padding: 2rem 1.2rem;
+    flex-direction: column;
+  }
+
+  .info-section h2 {
+    font-size: 1.6rem;
+  }
+
+  .info-section p {
+    font-size: 1rem;
+  }
+
+  button {
+    font-size: 0.95rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    margin: 2rem 1rem;
+    padding: 2rem 1rem;
+  }
+
+  .info-section h2 {
+    font-size: 1.4rem;
+  }
+
+  .info-section p,
+  .info-section div {
+    font-size: 0.95rem;
+  }
+
+  input,
+  textarea {
+    font-size: 0.95rem;
+  }
+
+  button {
+    width: 100%;
+  }
+}
