@@ -1,6 +1,8 @@
 import React from 'react'
 import HeroSection from '../sections/HeroSection'
 import Services from './Services'
+import Productype from '../products/Productype'
+import Videos from '../products/Videos'
 
 const Home = () => {
   return (
@@ -10,7 +12,8 @@ const Home = () => {
         description="Discover the timeless beauty of handcrafted jewelry that speaks elegance."
         imageUrl="https://www.shutterstock.com/image-photo/necklace-set-designed-on-black-600nw-1879916446.jpg"
         altText="Gold necklace on black background"/>
-      <Services/>
+      <Productype/>
+      <Videos/>
     </div>
   )
 }
