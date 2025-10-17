@@ -23,8 +23,9 @@ const Contact = () => {
             Got a question, proposal, or just want to say hello? I'd love to hear from you.
             Fill out the form and I’ll get back to you as soon as I can.
           </p>
-          <div><img src="@" alt="" />+91 972793612</div><br />
-          <div><img src="@" alt="" />jenish.domadiya@gmail.com</div> <br />
+          <div><img src="@" alt="" />+91 8200429787</div><br />
+          <div><img src="@" alt="" />+91 9727937612</div><br />
+          <div><img src="@" alt="" />dsbrotherssurat@gmail.com</div> <br />
           <div><img src="@" alt="" />Surat, Gujrat, India</div><br />
         </div>
         <form onSubmit={handleSubmit} className="contact-form">

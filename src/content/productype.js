@@ -2,7 +2,7 @@ const productype = [
   {
   id:1,
   img:"https://www.pngjewellers.com/cdn/shop/files/Diamond_mangalsutra.jpg?v=1746010992",
-  name:"Mangalsutra",
+  name:"Necklace",
   },{
     id:2,
   img:"https://www.pngjewellers.com/cdn/shop/files/Bangles.jpg?v=1746010992",

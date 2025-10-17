@@ -3,7 +3,6 @@ import styles from "../style/Videos.module.css";
 
 const videos = [
   { url: "/Videos/product1.mp4", description: "Demo of our first product." },
-  { url: "/Videos/product2.mp4", description: "Demo of our second product." },
   { url: "/Videos/product3.mp4", description: "Demo of our third product." },
   { url: "/Videos/product5.mp4", description: "Demo of our fifth product." },
   { url: "/Videos/product6.mp4", description: "Demo of our sixth product." },

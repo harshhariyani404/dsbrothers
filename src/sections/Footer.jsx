@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaInstagram, FaFacebook, FaWhatsapp } from 'react-icons/fa';
+import { FaInstagram, FaFacebook, FaWhatsapp, FaTelegram } from 'react-icons/fa';
 
 const Footer = () => {
   return (
@@ -31,12 +31,12 @@ const Footer = () => {
           <FaInstagram />
         </a>
         <a
-          href="https://www.facebook.com/"
+          href="https://t.me/johndoe"
           target="_blank"
           rel="noopener noreferrer"
           style={{ color: '#fff', margin: '0 12px' }}
         >
-          <FaFacebook />
+          <FaTelegram />
         </a>
         <a
           href="https://wa.me/919727937612"

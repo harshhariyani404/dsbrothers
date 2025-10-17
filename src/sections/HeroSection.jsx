@@ -1,17 +1,22 @@
 import React from "react";
 import styles from "../style/HeroSection.module.css";
 
-const HeroSection = ({ title,names, description, imageUrl, altText }) => {
+const HeroSection = ({ title, names, description, videoUrl, altText }) => {
   return (
     <section className={styles.hero}>
-      <div className={styles.imgwrap}>
-        <img
-          className={styles.image}
-          src={imageUrl}
-          alt={altText || "Hero banner image"}
-        />
-      </div>
-      <div className={styles.contant}>
+      {/* Background Video */}
+      <video
+        className={styles.bgVideo}
+        src={videoUrl}
+        autoPlay
+        loop
+        muted
+        playsInline
+      >
+        Your browser does not support the video tag.
+      </video>
+      {/* Overlay Content */}
+      <div className={styles.overlay}>
         <h1>{title}</h1>
         <h2>{names}</h2>
         <p>{description}</p>

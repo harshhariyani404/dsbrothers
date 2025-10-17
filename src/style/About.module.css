@@ -1,31 +1,33 @@
-/* Base layout */
 .about {
   padding: 4rem 1rem;
-  background: #faf9f6; /* Light ivory background */
+  background: #faf9f6;
   color: #2c2c2c;
   font-family: 'Playfair Display', serif;
+  display: flex;
+  justify-content: center;
 }
 
 .about__container {
-  max-width: 1200px;
+  max-width: 900px;
+  width: 100%;
   margin: 0 auto;
 }
 
-/* Title */
 .about__title {
   font-size: clamp(2.2rem, 1.2rem + 2.5vw, 3.2rem);
   font-weight: 700;
   text-align: center;
   margin-bottom: 2.5rem;
   letter-spacing: 1px;
-  color: #b8860b; /* Elegant gold */
+  color: #b8860b;
   text-transform: uppercase;
-  border-bottom: 2px solid rgba(184, 134, 11, 0.4);
-  display: inline-block;
+
+  display: block; /* Change from inline-block to block */
   padding-bottom: 0.5rem;
+  margin-left: auto;  /* Center horizontally */
+  margin-right: auto; /* Center horizontally */
 }
 
-/* Intro */
 .about__intro {
   display: grid;
   grid-template-columns: 1.2fr 1fr;
@@ -60,10 +62,9 @@
   display: block;
 }
 
-/* Vision & Mission */
 .about h2 {
   font-size: 1.8rem;
-  color: #b8860b; /* gold */
+  color: #b8860b;
   margin-top: 2rem;
   margin-bottom: 0.75rem;
   font-weight: 600;
@@ -78,7 +79,30 @@
   font-family: 'Roboto', sans-serif;
 }
 
-/* Leaders */
+.leader h3 {
+  color: #b8860b;
+  font-size: 1.35rem;
+  margin-bottom: 0.3rem;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+.leader strong {
+  display: block;
+  font-size: 1.12rem;
+  color: #222;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}
+
+.leader p {
+  font-size: 1.08rem;
+  color: #444;
+  margin-bottom: 0.5rem;
+  line-height: 1.7;
+  font-family: 'Roboto', sans-serif;
+}
+
 .about__leaders {
   display: grid;
   gap: 3rem;
@@ -92,7 +116,6 @@
   margin: 1.5rem 0;
 }
 
-/* Responsiveness */
 @media (max-width: 900px) {
   .about__intro {
     grid-template-columns: 1fr;
@@ -101,5 +124,16 @@
   .about__imageWrap {
     max-width: 480px;
     margin: 0 auto;
+  }
+}
+@media (max-width: 600px) {
+  .leader h3 {
+    font-size: 1.15rem;
+  }
+  .leader strong {
+    font-size: 1rem;
+  }
+  .leader p {
+    font-size: 0.98rem;
   }
 }

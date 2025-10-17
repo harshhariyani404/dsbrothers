@@ -1,75 +1,79 @@
-/* Reset and base font */
-* {
+*{
   margin: 0;
   padding: 0;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
-/* Hero section layout */
-.hero {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  padding: 20px;
-}
-
-/* Image wrapper */
-.imgwrap {
-  width: 50%;
-}
-
-/* Hero image */
-.image {
-  width: 80%;
-  height: 80%;
-  /* object-fit: cover; */
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 10px;
-}
-
-/* Content wrapper */
-.contant {
-  width: 50%;
-  padding: 2rem;
   box-sizing: border-box;
 }
-
-/* Title */
-.contant h1 {
-  padding: 20px 0 10px;
-  font-size: 50px;
-  color: #222;
+body {
+  overflow-x: hidden;
 }
 
-/* Names (new h2 element) */
-.contant h2 {
-  font-size: 24px;
-  color: #666;
-  margin-bottom: 20px;
+.hero {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-/* Description */
-.contant p {
-  font-size: 16px;
-  line-height: 1.6;
-  color: #444;
+.bgVideo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+  z-index: 1;
 }
 
-/* Responsive styles */
+
+.overlay {
+  position: relative;
+  z-index: 2;
+  color: #fff;
+  text-align: center;
+  padding: 2rem;
+  max-width: 90vw;
+  margin: auto;
+  font-size: 2.5vw;
+  font-weight: 700;
+  text-shadow: 2px 2px 16px rgba(0,0,0,0.7), 0 0 8px #222;
+}
+
+.overlay h1 {
+  font-size: 4vw;
+  margin-bottom: 1vw;
+}
+
+.overlay h2 {
+  font-size: 2.5vw;
+  margin-bottom: 1vw;
+}
+
+.overlay p {
+  font-size: 2vw;
+  margin-bottom: 1vw;
+}
+
+/* Responsive adjustments */
 @media (max-width: 768px) {
-  .imgwrap,
-  .contant {
-    width: 100%;
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
   }
-
-  .contant h1 {
-    font-size: 36px;
+  .overlay {
+    font-size: 6vw;
+    padding: 1rem;
   }
-
-  .contant h2 {
-    font-size: 20px;
+  .overlay h1 {
+    font-size: 10vw;
+  }
+  .overlay h2 {
+    font-size: 7vw;
+  }
+  .overlay p {
+    font-size: 5vw;
   }
 }
