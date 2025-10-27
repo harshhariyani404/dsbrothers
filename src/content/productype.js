@@ -6,12 +6,12 @@ const productype = [
   },{
     id:2,
   img:"https://www.pngjewellers.com/cdn/shop/files/Bangles.jpg?v=1746010992",
-  name:"Bangal",
+  name:"Bracelet",
   },
   {
     id:3,
   img:"https://www.pngjewellers.com/cdn/shop/files/Golden_earring.jpg?v=1746010992",
-  name:"Earring",
+  name:"Earrings",
   },
   {
     id:4,
@@ -26,7 +26,7 @@ const productype = [
   {
     id:6,
     img:"https://uniglodiamonds.com/wp-content/uploads/2021/02/diamond-formed-from-coal-1000x563.jpg",
-    name:"dimonds",
+    name:"Diamond",
   }
 ];
 export default productype

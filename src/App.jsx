@@ -1,8 +1,7 @@
 import React from "react";
 import Nevbar from "./sections/Nevbar";
-import Footer from "./sections/footer";
-import HeroSection from "./sections/herosection";
-import { BrowserRouter, Route, Router, Routes } from "react-router-dom";
+import Footer from "./sections/Footer";
+import { Routes, Route } from "react-router-dom";
 import Home from "./content/Home";
 import About from "./content/About";
 import Services from "./content/Services";
