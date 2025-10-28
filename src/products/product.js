@@ -165,13 +165,7 @@ const products = [
     price: "₹6200",
     image: "https://images.unsplash.com/photo-1693212793204-bcea856c75fe?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZGlhbW9uZCUyMGVhcnJpbmdzfGVufDB8fDB8fHww&auto=format&fit=crop&q=60&w=600"
   },
-  {
-    name: "Diamond Shine Earrings",
-    type: "Earrings",
-    description: "Shining diamond earrings with a luxury finish.",
-    price: "₹9000",
-    image: "https://images.unsplash.com/photo-1674329042475-de1a95b4ca62?auto=format&fit=crop&q=60&w=600"
-  },
+
   {
     name: "Classic Stud Earrings",
     type: "Earrings",
@@ -200,13 +194,7 @@ const products = [
     price: "₹6400",
     image: "https://images.unsplash.com/photo-1714700513036-558227ceabc4?auto=format&fit=crop&q=60&w=600"
   },
-  {
-    name: "Luxury Pearl Earrings",
-    type: "Earrings",
-    description: "Luxurious earrings crafted with fine pearls.",
-    price: "₹7100",
-    image: "https://images.unsplash.com/photo-1714700513036-558227ceabc4?auto=format&fit=crop&q=60&w=600"
-  },
+  
   {
     name: "Diamond Stud Earrings",
     type: "Earrings",
@@ -437,7 +425,7 @@ const products = [
     description: "Luxury diamond brooch for formal wear.",
     price: "₹24000",
     image: "https://5.imimg.com/data5/SELLER/Default/2024/7/438370206/IE/WS/WJ/189914666/radiant-shape-diamond-500x500.jpeg"
-  },
+  },  
 ];
 
 export default products;
