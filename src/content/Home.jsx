@@ -16,7 +16,7 @@ const Home = () => {
         name="keywords"
         content="DS Brothers, jewelry, handcrafted jewelry, gold chain, necklace, bracelet, diamond jewelrygold rings, diamond rings, gold necklaces, gold bracelets, custom jewelry, Surat jewelry,ds brothers"
       />
-      <meta name="google-site-verification" content="IXa8pa_Omn03vgHXbX4QbxEbIeA8_4Ts_IIolQEZpTM" />
+      
       <script type="application/ld+json">
         {`
           {
