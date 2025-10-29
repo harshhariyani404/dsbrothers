@@ -43,7 +43,7 @@
 .loadMore {
   margin-top: 20px;
   padding: 10px 20px;
-  background: #0070f3;
+  background: #b8860b;
   color: white;
   border: none;
   border-radius: 8px;
@@ -53,5 +53,5 @@
 }
 
 .loadMore:hover {
-  background: #0059c1;
+  background: #a67c00;
 }

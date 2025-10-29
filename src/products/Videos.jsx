@@ -2,15 +2,15 @@ import React, { useRef, useState } from "react";
 import styles from "../style/Videos.module.css";
 
 const videos = [
-  { url: "/Videos/product1.mp4", description: "Demo of our first product." },
-  { url: "/Videos/product3.mp4", description: "Demo of our third product." },
-  { url: "/Videos/product5.mp4", description: "Demo of our fifth product." },
-  { url: "/Videos/product6.mp4", description: "Demo of our sixth product." },
-  { url: "/Videos/product7.mp4", description: "Demo of our seventh product." },
-  { url: "/Videos/product8.mp4", description: "Demo of our eighth product." },
-  { url: "/Videos/product9.mp4", description: "Demo of our ninth product." },
-  { url: "/Videos/product10.mp4", description: "Demo of our tenth product." },
-  { url: "/Videos/product11.mp4", description: "Demo of our eleventh product." }
+  { url: "/Videos/product1.mp4", description: "Click here" },
+  { url: "/Videos/product3.mp4", description: "Click here" },
+  { url: "/Videos/product5.mp4", description: "Click here" },
+  { url: "/Videos/product6.mp4", description: "Click here" },
+  { url: "/Videos/product7.mp4", description: "Click here" },
+  { url: "/Videos/product8.mp4", description: "Click here" },
+  { url: "/Videos/product9.mp4", description: "Click here" },
+  { url: "/Videos/product10.mp4", description: "Click here" },
+  { url: "/Videos/product11.mp4", description: "Click here" }
 ];
 
 const VideoCard = ({ video, index }) => {
