@@ -126,7 +126,7 @@ const products = [
     type: "Bracelet",
     description: "Elegant silver diamond bracelet for parties.",
     price: "₹11000",
-    image: "https://amd.deodap.com/cdn/shop/files/Untitled-1452_1200x1200.jpg?v=1750917221"
+    image: "https://media.istockphoto.com/id/1300823870/photo/silver-diamond-bracelet-isolated-on-white-background.webphttps://amd.deodap.com/cdn/shop/files/Untitled-1452_1200x1200.jpg?v=1750917221"
   },
   {
     name: "Thin Gold Bangle",
