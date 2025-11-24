@@ -1,144 +1,144 @@
 const products = [
   // ---------------- Necklace ----------------
   {
-    name: "Diamond Necklace",
+    name: "Diamond Floral Necklace",
     type: "Necklace",
-    description: "Beautiful diamond necklace.",
+    description: "A delicate diamond-studded floral necklace crafted for elegance.",
     price: "₹15000",
     image: "https://images.unsplash.com/photo-1635767798638-3e25273a8236?q=60&w=600"
   },
   {
-    name: "Gold Necklace",
+    name: "Royal Gold Necklace",
     type: "Necklace",
-    description: "Elegant gold necklace with intricate design.",
+    description: "A traditional handcrafted gold necklace featuring intricate artistry.",
     price: "₹13000",
     image: "https://images.unsplash.com/photo-1611652022419-a9419f74343d?q=60&w=600"
   },
   {
-    name: "Modern Necklace",
+    name: "Contemporary Gold Necklace",
     type: "Necklace",
-    description: "Stylish modern necklace for all occasions.",
+    description: "A modern-style necklace designed for a chic everyday look.",
     price: "₹14500",
     image: "https://images.unsplash.com/photo-1599643477877-530eb83abc8e?q=60&w=600"
   },
   {
-    name: "Royal Necklace",
+    name: "Majestic Bridal Necklace",
     type: "Necklace",
-    description: "Premium necklace with royal finish.",
+    description: "A premium wedding necklace featuring royal design details.",
     price: "₹18000",
     image: "https://plus.unsplash.com/premium_photo-1681276170092-446cd1b5b32d?q=60&w=600"
   },
   {
-    name: "Elegant Gold Necklace",
+    name: "Heritage Gold Necklace",
     type: "Necklace",
-    description: "Traditional gold necklace crafted with precision.",
+    description: "A classic Indian gold necklace crafted with traditional motifs.",
     price: "₹14000",
     image: "https://images.unsplash.com/photo-1601121141461-9d6647bca1ed?auto=format&fit=crop&q=60&w=600"
   },
   {
-    name: "Classic Gold Necklace",
+    name: "Timeless Gold Necklace",
     type: "Necklace",
-    description: "Timeless gold necklace for special occasions.",
+    description: "A beautifully detailed gold necklace for festive occasions.",
     price: "₹12500",
     image: "https://images.unsplash.com/photo-1600862754152-80a263dd564f?auto=format&fit=crop&q=60&w=600"
   },
   {
-    name: "Designer Necklace",
+    name: "Designer Layered Necklace",
     type: "Necklace",
-    description: "Designer gold necklace with modern artistry.",
+    description: "A contemporary layered necklace crafted with modern aesthetics.",
     price: "₹15500",
     image: "https://images.unsplash.com/photo-1722410180687-b05b50922362?auto=format&fit=crop&q=60&w=600"
   },
   {
-    name: "Luxury Gold Necklace",
+    name: "Luxury Handcrafted Gold Necklace",
     type: "Necklace",
-    description: "Luxurious handcrafted necklace with fine details.",
+    description: "A premium handmade necklace featuring exquisite gold detailing.",
     price: "₹16000",
     image: "https://images.unsplash.com/photo-1705326454924-f6777522b030?auto=format&fit=crop&q=60&w=600"
   },
   {
-    name: "Beaded Necklace",
+    name: "Colorful Beaded Necklace",
     type: "Necklace",
-    description: "Colorful beaded necklace for casual wear.",
+    description: "A vibrant beaded necklace perfect for casual and festive wear.",
     price: "₹7000",
     image: "https://plus.unsplash.com/premium_photo-1681276170758-d6ca6e6e276a?auto=format&fit=crop&q=60&w=600"
   },
   {
-    name: "Rose Gold Necklace",
+    name: "Rose Gold Chain Necklace",
     type: "Necklace",
-    description: "Chic rose gold chain necklace.",
+    description: "A chic and modern rose gold necklace for daily elegance.",
     price: "₹13500",
     image: "https://images.unsplash.com/photo-1676329945867-01c9975aa9d1?auto=format&fit=crop&q=60&w=600"
   },
 
-  // ---------------- Bracelet ----------------
+  // ---------------- Bracelet / Bangle ----------------
   {
-    name: "Elegant Bracelet",
+    name: "Elegant Gold Bracelet",
     type: "Bracelet",
-    description: "Premium gold bracelet for women.",
+    description: "A sleek gold bracelet crafted to complement every outfit.",
     price: "₹7000",
     image: "https://plus.unsplash.com/premium_photo-1681276168324-a6f1958aa191?auto=format&fit=crop&q=60&w=600"
   },
   {
     name: "Silver Charm Bracelet",
     type: "Bracelet",
-    description: "Beautiful silver bracelet with charm designs.",
+    description: "A stylish bracelet featuring decorative silver charms.",
     price: "₹6500",
     image: "https://images.unsplash.com/photo-1619119069152-a2b331eb392a?auto=format&fit=crop&q=60&w=1000"
   },
   {
-    name: "Luxury Diamond Bracelet",
+    name: "Diamond Accent Bracelet",
     type: "Bracelet",
-    description: "Exquisite bracelet with embedded diamonds.",
+    description: "A luxury bracelet embellished with sparkling diamonds.",
     price: "₹12000",
     image: "https://images.unsplash.com/photo-1676120963306-8969fa6a810e?auto=format&fit=crop&q=60&w=1000"
   },
   {
     name: "Modern Gold Bracelet",
     type: "Bracelet",
-    description: "Stylish modern bracelet crafted from gold.",
+    description: "A fine gold bracelet with a contemporary touch.",
     price: "₹9500",
     image: "https://images.unsplash.com/photo-1611591437281-460bfbe1220a?auto=format&fit=crop&q=60&w=1000"
   },
   {
-    name: "Designer Bracelet",
+    name: "Handcrafted Artistic Bracelet",
     type: "Bracelet",
-    description: "Unique handcrafted designer bracelet.",
+    description: "A unique designer bracelet made with artistic craftsmanship.",
     price: "₹8500",
     image: "https://images.unsplash.com/photo-1721206624468-2b3496c3bcfc?auto=format&fit=crop&q=60&w=1000"
   },
   {
-    name: "Silver Chakra Bracelet",
+    name: "Chakra Style Silver Bracelet",
     type: "Bracelet",
-    description: "Hippie-style silver bracelet with chakra design.",
+    description: "A trendy silver bracelet inspired by chakra patterns.",
     price: "₹6000",
     image: "https://media.istockphoto.com/id/1163354085/photo/silver-bracelets-chakra-hippie-style.webp"
   },
   {
-    name: "Golden Antique Bracelet",
+    name: "Antique Golden Bracelet",
     type: "Bracelet",
-    description: "Fancy designer antique golden bracelet for women.",
+    description: "A beautifully carved antique-style golden bracelet.",
     price: "₹10500",
     image: "https://media.istockphoto.com/id/1277517088/photo/fancy-designer-antique-golden-bracelets-for-woman-fashion.webp"
   },
   {
-    name: "Silver Diamond Bracelet",
+    name: "Diamond Sparkle Bracelet",
     type: "Bracelet",
-    description: "Elegant silver diamond bracelet for parties.",
+    description: "A silver bracelet decorated with shimmering diamonds.",
     price: "₹11000",
     image: "https://media.istockphoto.com/id/1300823870/photo/silver-diamond-bracelet-isolated-on-white-background.webp"
   },
   {
-    name: "Thin Gold Bangle",
+    name: "Slim Daily Gold Bangle",
     type: "Bracelet",
-    description: "Slim and elegant daily wear bangles.",
+    description: "A lightweight gold bangle perfect for everyday wear.",
     price: "₹6500",
     image: "https://images.unsplash.com/photo-1721103428054-6bcf4f655594?auto=format&fit=crop&q=60&w=600"
   },
   {
-    name: "Heavy Bridal Bangle",
+    name: "Heavy Bridal Bangle Set",
     type: "Bracelet",
-    description: "Traditional heavy bridal bangle set.",
+    description: "A richly designed bridal bangle set for grand occasions.",
     price: "₹22000",
     image: "https://images.unsplash.com/photo-1721206624492-3d05631471ea?auto=format&fit=crop&q=60&w=600"
   },
@@ -147,279 +147,279 @@ const products = [
   {
     name: "Golden Drop Earrings",
     type: "Earrings",
-    description: "Elegant golden drop earrings for women.",
+    description: "Elegant drop-style earrings crafted in fine gold.",
     price: "₹5500",
     image: "https://plus.unsplash.com/premium_photo-1681276170291-27698ccc0a8e?auto=format&fit=crop&q=60&w=600"
   },
   {
-    name: "Royal Diamond Earrings",
+    name: "Diamond Royal Earrings",
     type: "Earrings",
-    description: "Stunning diamond earrings for special occasions.",
+    description: "A pair of beautifully cut diamond earrings for special events.",
     price: "₹8200",
     image: "https://images.unsplash.com/photo-1588444650733-d0767b753fc8?auto=format&fit=crop&q=60&w=600"
   },
   {
     name: "Modern Pearl Earrings",
     type: "Earrings",
-    description: "Trendy pearl earrings for a modern look.",
+    description: "Stylish pearl earrings blending modern and classic design.",
     price: "₹6200",
     image: "https://images.unsplash.com/photo-1693212793204-bcea856c75fe?auto=format&fit=crop&q=60&w=600"
   },
   {
-    name: "Classic Stud Earrings",
+    name: "Classic Gold Studs",
     type: "Earrings",
-    description: "Timeless stud earrings for elegant wear.",
+    description: "Timeless stud earrings ideal for daily elegance.",
     price: "₹4800",
     image: "https://images.unsplash.com/photo-1674329042475-de1a95b4ca62?auto=format&fit=crop&q=60&w=600"
   },
   {
     name: "Luxury Diamond Earrings",
     type: "Earrings",
-    description: "Gorgeous diamond earrings for festive occasions.",
+    description: "Premium diamond earrings designed for luxury styling.",
     price: "₹8800",
     image: "https://plus.unsplash.com/premium_photo-1681276170610-8d9264aaccd8?auto=format&fit=crop&q=60&w=600"
   },
   {
-    name: "Elegant Silver Earrings",
+    name: "Silver Shine Earrings",
     type: "Earrings",
-    description: "Beautiful silver earrings with a premium shine.",
+    description: "Elegant silver earrings offering a premium finish.",
     price: "₹5600",
     image: "https://images.unsplash.com/photo-1725266698864-d762b3f23a96?auto=format&fit=crop&q=60&w=600"
   },
   {
     name: "Golden Hoop Earrings",
     type: "Earrings",
-    description: "Trendy hoop earrings made of fine gold.",
+    description: "Trendy hoop earrings crafted in quality gold.",
     price: "₹6400",
     image: "https://images.unsplash.com/photo-1714700513036-558227ceabc4?auto=format&fit=crop&q=60&w=600"
   },
   {
     name: "Diamond Stud Earrings",
     type: "Earrings",
-    description: "Beautiful diamond studs for daily elegance.",
+    description: "Everyday diamond studs with a luxurious shine.",
     price: "₹9300",
     image: "https://images.unsplash.com/photo-1721103418236-3e314539f849?auto=format&fit=crop&q=60&w=600"
   },
   {
     name: "Antique Gold Earrings",
     type: "Earrings",
-    description: "Traditional gold earrings with intricate design.",
+    description: "Traditional gold earrings with detailed craftsmanship.",
     price: "₹7900",
     image: "https://plus.unsplash.com/premium_photo-1680181362119-5c9bf196805f?auto=format&fit=crop&q=60&w=600"
   },
   {
-    name: "Silver Crystal Earrings",
+    name: "Crystal Silver Earrings",
     type: "Earrings",
-    description: "Elegant silver earrings with crystal detailing.",
+    description: "Shiny silver earrings featuring crystal accents.",
     price: "₹6700",
     image: "https://images.unsplash.com/photo-1724937798223-720f8956cb12?auto=format&fit=crop&q=60&w=600"
   },
 
   // ---------------- Chain ----------------
   {
-    name: "Gold Chain",
+    name: "Classic Gold Chain",
     type: "Chain",
-    description: "Simple and elegant gold chain.",
+    description: "A simple and elegant gold chain ideal for everyday styling.",
     price: "₹10000",
     image: "https://images.unsplash.com/photo-1570891836868-673ee4818f81?auto=format&fit=crop&q=60&w=600"
   },
   {
-    name: "Silver Chain",
+    name: "Bold Silver Chain",
     type: "Chain",
-    description: "Stylish silver chain for men.",
+    description: "A modern silver chain designed for a stylish look.",
     price: "₹5000",
     image: "https://plus.unsplash.com/premium_photo-1678730056371-eff9c5356a48?auto=format&fit=crop&q=60&w=600"
   },
   {
-    name: "Box Chain",
+    name: "Gold Box Chain",
     type: "Chain",
-    description: "Sturdy box style gold chain.",
+    description: "A sturdy box-pattern chain crafted in pure gold.",
     price: "₹8000",
     image: "https://images.unsplash.com/photo-1679973298076-07d422275c7a?auto=format&fit=crop&q=60&w=600"
   },
   {
-    name: "Link Chain",
+    name: "Classic Link Chain",
     type: "Chain",
-    description: "Classic gold link chain for daily wear.",
+    description: "A traditional link-style gold chain suitable for daily wear.",
     price: "₹9500",
     image: "https://images.unsplash.com/photo-1721807550875-f76de8503a30?auto=format&fit=crop&q=60&w=600"
   },
   {
-    name: "Snake Chain",
+    name: "Snake Pattern Chain",
     type: "Chain",
-    description: "Smooth snake pattern gold chain.",
+    description: "A smooth and elegant snake-pattern gold chain.",
     price: "₹11000",
     image: "https://images.unsplash.com/photo-1724937721130-c9a9a4ee477e?auto=format&fit=crop&q=80&w=863"
   },
   {
-    name: "Figaro Chain",
+    name: "Figaro Gold Chain",
     type: "Chain",
-    description: "Modern figaro style gold chain.",
+    description: "A fashionable Figaro-style chain crafted for a premium look.",
     price: "₹12500",
     image: "https://images.unsplash.com/photo-1713208176122-b39f594cc00c?auto=format&fit=crop&q=60&w=600"
   },
   {
-    name: "Rope Chain",
+    name: "Rope Twist Chain",
     type: "Chain",
-    description: "Twisted rope pattern gold chain.",
+    description: "A stylish rope-pattern chain with a polished finish.",
     price: "₹10500",
     image: "https://images.unsplash.com/photo-1641494684667-b8c56b03a764?auto=format&fit=crop&q=80&w=1170"
   },
   {
-    name: "Beaded Chain",
+    name: "Gold Beaded Chain",
     type: "Chain",
-    description: "Unique beaded gold chain.",
+    description: "A unique gold chain featuring elegant bead detailing.",
     price: "₹11500",
     image: "https://images.unsplash.com/photo-1638073694489-6238362ab66f?auto=format&fit=crop&q=80&w=764"
   },
   {
-    name: "Diamond Chain",
+    name: "Diamond Cut Chain",
     type: "Chain",
-    description: "Diamond studded gold chain.",
+    description: "A luxurious chain featuring diamond-inspired cuts.",
     price: "₹18000",
     image: "https://plus.unsplash.com/premium_photo-1681276170069-36fa70186f7b?auto=format&fit=crop&q=60&w=600"
   },
   {
     name: "Rose Gold Chain",
     type: "Chain",
-    description: "Chic rose gold plated chain.",
+    description: "A modern rose gold chain with a smooth finish.",
     price: "₹9500",
     image: "https://images.unsplash.com/photo-1679973296808-ff5fd4e29b61?auto=format&fit=crop&q=60&w=600"
   },
 
-  // ---------------- Ring ----------------
+  // ---------------- Rings ----------------
   {
-    name: "Gold Ring",
+    name: "Classic Gold Ring",
     type: "Ring",
-    description: "Elegant gold ring for men and women.",
+    description: "A beautiful gold ring suitable for men and women.",
     price: "₹5000",
     image: "https://images.unsplash.com/photo-1605100804763-247f67b3557e?auto=format&fit=crop&q=60&w=600"
   },
   {
-    name: "Diamond Ring",
+    name: "Diamond Solitaire Ring",
     type: "Ring",
-    description: "Stylish diamond ring with fine finish.",
+    description: "A stylish solitaire diamond ring with a refined finish.",
     price: "₹12000",
     image: "https://plus.unsplash.com/premium_photo-1678749105286-9970ba61a724?auto=format&fit=crop&q=60&w=600"
   },
   {
-    name: "Silver Band Ring",
+    name: "Minimal Silver Band",
     type: "Ring",
-    description: "Simple silver band ring for daily wear.",
+    description: "A sleek silver band ring perfect for daily use.",
     price: "₹3500",
     image: "https://images.unsplash.com/photo-1561995734-ef4b62bb6586?auto=format&fit=crop&q=60&w=600"
   },
   {
-    name: "Ruby Ring",
+    name: "Ruby Stone Ring",
     type: "Ring",
-    description: "Beautiful ruby stone gold ring.",
+    description: "A premium gold ring featuring a vibrant ruby stone.",
     price: "₹8500",
     image: "https://plus.unsplash.com/premium_photo-1674700256963-895810455dd4?auto=format&fit=crop&q=60&w=600"
   },
   {
-    name: "Couple Ring Set",
+    name: "Couple’s Gold Ring Set",
     type: "Ring",
-    description: "Matching gold couple rings.",
+    description: "A romantic matching ring set for couples.",
     price: "₹9500",
     image: "https://images.unsplash.com/photo-1723522938769-4f26effdd1f1?auto=format&fit=crop&q=60&w=600"
   },
   {
-    name: "Rose Gold Ring",
+    name: "Rose Gold Band Ring",
     type: "Ring",
-    description: "Trendy rose gold plated ring.",
+    description: "A modern rose gold ring with a smooth polished surface.",
     price: "₹6000",
     image: "https://images.unsplash.com/photo-1677045419454-e8b201856472?auto=format&fit=crop&q=60&w=600"
   },
   {
-    name: "Emerald Ring",
+    name: "Emerald Stone Ring",
     type: "Ring",
-    description: "Gold ring with green emerald stone.",
+    description: "A stunning emerald ring crafted in fine gold.",
     price: "₹7800",
     image: "https://images.unsplash.com/photo-1721034909472-390b9325f415?auto=format&fit=crop&q=60&w=600"
   },
   {
     name: "Antique Gold Ring",
     type: "Ring",
-    description: "Antique finish gold ring design.",
+    description: "A vintage-style gold ring featuring handcrafted detailing.",
     price: "₹7200",
     image: "https://images.unsplash.com/photo-1719924998065-0c60e329ef58?auto=format&fit=crop&q=60&w=600"
   },
   {
-    name: "Heart Shape Ring",
+    name: "Heart Diamond Ring",
     type: "Ring",
-    description: "Romantic heart-shaped diamond ring.",
+    description: "A romantic heart-shaped diamond ring for special occasions.",
     price: "₹8900",
     image: "https://images.unsplash.com/photo-1683245597322-79659ee86fb3?auto=format&fit=crop&q=60&w=600"
   },
   {
-    name: "Platinum Ring",
+    name: "Premium Platinum Ring",
     type: "Ring",
-    description: "Stylish platinum band ring.",
+    description: "A luxurious platinum ring with a clean, modern finish.",
     price: "₹25000",
     image: "https://images.unsplash.com/photo-1629201688905-697730d24490?auto=format&fit=crop&q=60&w=600"
   },
 
-  // ---------------- Diamond ----------------
+  // ---------------- Diamond Category ----------------
   {
-    name: "princess-cut Diamond",
+    name: "Diamond Pendant Necklace",
     type: "Diamond",
-    description: "Elegant princess-cut Diamond lab-grown.",
+    description: "A beautifully crafted diamond pendant hung on a gold chain.",
     price: "₹13000",
     image: "https://plus.unsplash.com/premium_photo-1678727212341-eb0a264a6800?auto=format&fit=crop&q=60&w=600"
   },
   {
-    name: "teardrop-shaped Diamond",
+    name: "Diamond Party Bracelet",
     type: "Diamond",
-    description: "teardrop-shaped diamond with high clarity.",
+    description: "A sparkling diamond bracelet perfect for parties and events.",
     price: "₹16000",
     image: "https://images.unsplash.com/photo-1551947391-249dcb8ed976?auto=format&fit=crop&q=80&w=1074"
   },
   {
-    name: "Asscher cut Diamond",
+    name: "Diamond Solitaire Ring",
     type: "Diamond",
-    description: "Asscher cut diamond with excellent brilliance.",
+    description: "A premium solitaire diamond ring designed for luxury.",
     price: "₹20000",
     image: "https://images.unsplash.com/photo-1645201233154-80125533a32c?auto=format&fit=crop&q=60&w=600"
   },
   {
-    name: "Kite-cut Diamond",
+    name: "Classic Diamond Studs",
     type: "Diamond",
-    description: "Kite-cut diamond with unique facets.",
+    description: "Elegant diamond stud earrings suitable for daily wear.",
     price: "₹14000",
     image: "https://i.redd.it/xa50sz8j9mqa1.jpeg"
   },
   {
-    name: " lozenge-cut Diamond",
+    name: "Bridal Diamond Necklace",
     type: "Diamond",
-    description: "lozenge-cut diamond with exceptional fire.",
+    description: "A luxurious diamond necklace designed for wedding occasions.",
     price: "₹55000",
     image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_9mBTdG5tUoMhDXJXLtZ1oqzvk2AUxKpxw80kwlY7CWul2GfshUG9r427GGqyrPS2MLM"
   },
   {
-    name: "triangle-cut Diamond",
+    name: "Diamond Embedded Chain",
     type: "Diamond",
-    description: "triangle-cut diamond with sharp edges.",
+    description: "A stylish gold chain featuring a diamond-studded finish.",
     price: "₹28000",
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsVwADWqM3KV87QT8p9XBTruoYFeqAwdvTPQ"
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsVwADWqM3KV87QT8p9XBTruoYFeqAwdvTPQ&s"
   },
   {
-    name: "heart-cut Diamond",
+    name: "Diamond Bangle Pair",
     type: "Diamond",
-    description: "heart-cut diamond symbolizing love and affection.",
+    description: "An exquisite pair of diamond-studded bangles.",
     price: "₹45000",
     image: "https://5.imimg.com/data5/SELLER/Default/2022/10/UC/PK/WM/70249436/heart-shaped-diamond.jpg"
   },
   {
-    name: "marquise cut Diamond",
+    name: "Diamond Drop Earrings",
     type: "Diamond",
-    description: "marquise cut diamond with elongated shape.",
+    description: "Stylish diamond drop earrings with a luxury finish.",
     price: "₹17000",
     image: "https://i.etsystatic.com/16200267/r/il/597308/4412752022/il_fullxfull.4412752022_7sdl.jpg"
   },
   {
-    name: "radiant-cut Diamond",
+    name: "Radiant Diamond Brooch",
     type: "Diamond",
-    description: "radiant-cut diamond with brilliant facets.",
+    description: "A premium diamond brooch designed for formal wear.",
     price: "₹24000",
     image: "https://5.imimg.com/data5/SELLER/Default/2024/7/438370206/IE/WS/WJ/189914666/radiant-shape-diamond-500x500.jpeg"
   }

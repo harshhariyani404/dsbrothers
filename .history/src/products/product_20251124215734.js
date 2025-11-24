@@ -412,14 +412,14 @@ const products = [
   {
     name: "marquise cut Diamond",
     type: "Diamond",
-    description: "marquise cut diamond with elongated shape.",
+    description: "Stylish diamond drop earrings.",
     price: "₹17000",
     image: "https://i.etsystatic.com/16200267/r/il/597308/4412752022/il_fullxfull.4412752022_7sdl.jpg"
   },
   {
-    name: "radiant-cut Diamond",
+    name: "Diamond Brooch",
     type: "Diamond",
-    description: "radiant-cut diamond with brilliant facets.",
+    description: "Luxury diamond brooch for formal wear.",
     price: "₹24000",
     image: "https://5.imimg.com/data5/SELLER/Default/2024/7/438370206/IE/WS/WJ/189914666/radiant-shape-diamond-500x500.jpeg"
   }

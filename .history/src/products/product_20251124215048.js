@@ -368,58 +368,58 @@ const products = [
     image: "https://plus.unsplash.com/premium_photo-1678727212341-eb0a264a6800?auto=format&fit=crop&q=60&w=600"
   },
   {
-    name: "teardrop-shaped Diamond",
+    name: "Diamond Bracelet",
     type: "Diamond",
-    description: "teardrop-shaped diamond with high clarity.",
+    description: "Sparkling diamond bracelet for parties.",
     price: "₹16000",
     image: "https://images.unsplash.com/photo-1551947391-249dcb8ed976?auto=format&fit=crop&q=80&w=1074"
   },
   {
-    name: "Asscher cut Diamond",
+    name: "Diamond Ring",
     type: "Diamond",
-    description: "Asscher cut diamond with excellent brilliance.",
+    description: "Classic diamond solitaire ring.",
     price: "₹20000",
     image: "https://images.unsplash.com/photo-1645201233154-80125533a32c?auto=format&fit=crop&q=60&w=600"
   },
   {
-    name: "Kite-cut Diamond",
+    name: "Diamond Studs",
     type: "Diamond",
-    description: "Kite-cut diamond with unique facets.",
+    description: "Simple and elegant diamond stud earrings.",
     price: "₹14000",
     image: "https://i.redd.it/xa50sz8j9mqa1.jpeg"
   },
   {
-    name: " lozenge-cut Diamond",
+    name: "Diamond Necklace",
     type: "Diamond",
-    description: "lozenge-cut diamond with exceptional fire.",
+    description: "Premium diamond necklace for weddings.",
     price: "₹55000",
     image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_9mBTdG5tUoMhDXJXLtZ1oqzvk2AUxKpxw80kwlY7CWul2GfshUG9r427GGqyrPS2MLM"
   },
   {
-    name: "triangle-cut Diamond",
+    name: "Diamond Chain",
     type: "Diamond",
-    description: "triangle-cut diamond with sharp edges.",
+    description: "Diamond embedded gold chain.",
     price: "₹28000",
     image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsVwADWqM3KV87QT8p9XBTruoYFeqAwdvTPQ"
   },
   {
-    name: "heart-cut Diamond",
+    name: "Diamond Bangles",
     type: "Diamond",
-    description: "heart-cut diamond symbolizing love and affection.",
+    description: "Pair of elegant diamond-studded bangles.",
     price: "₹45000",
     image: "https://5.imimg.com/data5/SELLER/Default/2022/10/UC/PK/WM/70249436/heart-shaped-diamond.jpg"
   },
   {
-    name: "marquise cut Diamond",
+    name: "Diamond Earrings",
     type: "Diamond",
-    description: "marquise cut diamond with elongated shape.",
+    description: "Stylish diamond drop earrings.",
     price: "₹17000",
     image: "https://i.etsystatic.com/16200267/r/il/597308/4412752022/il_fullxfull.4412752022_7sdl.jpg"
   },
   {
-    name: "radiant-cut Diamond",
+    name: "Diamond Brooch",
     type: "Diamond",
-    description: "radiant-cut diamond with brilliant facets.",
+    description: "Luxury diamond brooch for formal wear.",
     price: "₹24000",
     image: "https://5.imimg.com/data5/SELLER/Default/2024/7/438370206/IE/WS/WJ/189914666/radiant-shape-diamond-500x500.jpeg"
   }

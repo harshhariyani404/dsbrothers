@@ -419,7 +419,7 @@ const products = [
   {
     name: "radiant-cut Diamond",
     type: "Diamond",
-    description: "radiant-cut diamond with brilliant facets.",
+    description: "Luxury diamond brooch for formal wear.",
     price: "₹24000",
     image: "https://5.imimg.com/data5/SELLER/Default/2024/7/438370206/IE/WS/WJ/189914666/radiant-shape-diamond-500x500.jpeg"
   }

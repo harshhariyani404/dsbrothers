@@ -2,15 +2,15 @@ import React, { useRef, useState } from "react";
 import styles from "../style/Videos.module.css";
 
 const videos = [
-  { url: "/Videos/product1.mp4", description: "" },
-  { url: "/Videos/product3.mp4", description: "" },
-  { url: "/Videos/product5.mp4", description: "" },
-  { url: "/Videos/product6.mp4", description: "" },
-  { url: "/Videos/product7.mp4", description: "" },
-  { url: "/Videos/product8.mp4", description: "" },
-  { url: "/Videos/product9.mp4", description: "" },
-  { url: "/Videos/product10.mp4", description: "" },
-  { url: "/Videos/product11.mp4", description: "" }
+  { url: "/Videos/product1.mp4", description: "Click here" },
+  { url: "/Videos/product3.mp4", description: "Click here" },
+  { url: "/Videos/product5.mp4", description: "Click here" },
+  { url: "/Videos/product6.mp4", description: "Click here" },
+  { url: "/Videos/product7.mp4", description: "Click here" },
+  { url: "/Videos/product8.mp4", description: "Click here" },
+  { url: "/Videos/product9.mp4", description: "Click here" },
+  { url: "/Videos/product10.mp4", description: "Click here" },
+  { url: "/Videos/product11.mp4", description: "Click here" }
 ];
 
 const VideoCard = ({ video, index }) => {

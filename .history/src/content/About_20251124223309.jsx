@@ -67,7 +67,7 @@ const About = () => {
 
           <div className={style.leader}>
             <h3>Mumbai Branch Head</h3>
-            <strong>Jenish Domadiya</strong>
+            <strong>Jenish Domadiya  (+91 9408713407)</strong>
             <p>
               Co-founder & COO. Focused on operations, supplier relations and ensuring product quality at scale.
             </p>

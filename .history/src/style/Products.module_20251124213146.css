@@ -135,7 +135,7 @@
   margin: 2rem 0 1rem;
   font-weight: bold;
   color: #333;
-  /* border-left: 6px solid gold; */
+  border-left: 6px solid gold;
   padding-left: 10px;
   text-align: center;
 }

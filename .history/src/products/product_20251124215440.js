@@ -384,42 +384,42 @@ const products = [
   {
     name: "Kite-cut Diamond",
     type: "Diamond",
-    description: "Kite-cut diamond with unique facets.",
+    description: "Simple and elegant diamond stud earrings.",
     price: "₹14000",
     image: "https://i.redd.it/xa50sz8j9mqa1.jpeg"
   },
   {
-    name: " lozenge-cut Diamond",
+    name: "Diamond Necklace",
     type: "Diamond",
-    description: "lozenge-cut diamond with exceptional fire.",
+    description: "Premium diamond necklace for weddings.",
     price: "₹55000",
     image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_9mBTdG5tUoMhDXJXLtZ1oqzvk2AUxKpxw80kwlY7CWul2GfshUG9r427GGqyrPS2MLM"
   },
   {
-    name: "triangle-cut Diamond",
+    name: "Diamond Chain",
     type: "Diamond",
-    description: "triangle-cut diamond with sharp edges.",
+    description: "Diamond embedded gold chain.",
     price: "₹28000",
     image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsVwADWqM3KV87QT8p9XBTruoYFeqAwdvTPQ"
   },
   {
-    name: "heart-cut Diamond",
+    name: "Diamond Bangles",
     type: "Diamond",
-    description: "heart-cut diamond symbolizing love and affection.",
+    description: "Pair of elegant diamond-studded bangles.",
     price: "₹45000",
     image: "https://5.imimg.com/data5/SELLER/Default/2022/10/UC/PK/WM/70249436/heart-shaped-diamond.jpg"
   },
   {
-    name: "marquise cut Diamond",
+    name: "Diamond Earrings",
     type: "Diamond",
-    description: "marquise cut diamond with elongated shape.",
+    description: "Stylish diamond drop earrings.",
     price: "₹17000",
     image: "https://i.etsystatic.com/16200267/r/il/597308/4412752022/il_fullxfull.4412752022_7sdl.jpg"
   },
   {
-    name: "radiant-cut Diamond",
+    name: "Diamond Brooch",
     type: "Diamond",
-    description: "radiant-cut diamond with brilliant facets.",
+    description: "Luxury diamond brooch for formal wear.",
     price: "₹24000",
     image: "https://5.imimg.com/data5/SELLER/Default/2024/7/438370206/IE/WS/WJ/189914666/radiant-shape-diamond-500x500.jpeg"
   }
