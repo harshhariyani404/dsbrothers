@@ -42,7 +42,6 @@ const About = () => {
             />
           </div>
         </div>
-        <hr className={style.about__divider} />
         <div className={style.about__branches}>
           <h2>Our Branches</h2>
           <p>

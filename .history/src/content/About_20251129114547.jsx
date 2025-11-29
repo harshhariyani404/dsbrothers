@@ -42,7 +42,6 @@ const About = () => {
             />
           </div>
         </div>
-        <hr className={style.about__divider} />
         <div className={style.about__branches}>
           <h2>Our Branches</h2>
           <p>
@@ -78,7 +77,7 @@ const About = () => {
             </p>
           </div>
         </div>
-        <hr className={style.about__divider} />
+
 
         <h2>Vision</h2>
         <p>
@@ -89,6 +88,17 @@ const About = () => {
         <p>
           To exceed expectations in quality, selection and service by understanding local tastes and continuously innovating our designs.
         </p>
+
+        <hr className={style.about__divider} />
+        <div className={style.about__leaders}>
+          <div className={style.leader}>
+            <h3>Founder & CEO</h3>
+            <strong>Pritesh Domadiya</strong>
+            <p>
+              As the Founder & CEO of D.S. Brothers, Pritesh Domadiya is the guiding vision behind the brand. His expertise in jewelry craftsmanship and deep understanding of customer expectations have shaped D.S. Brothers into a trusted name for quality and timeless design. With a focus on authenticity, innovation, and precision, he continues to lead the brand toward excellence in every creation.
+            </p>
+          </div>
+        </div>
 
       </div>
     </section>

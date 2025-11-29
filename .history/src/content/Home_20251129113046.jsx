@@ -4,7 +4,7 @@ import HeroSection from "../sections/HeroSection";
 import Products from "../products/Products.jsx";
 import Videos from "../products/Videos";
 
-const SITE_URL = "https://dsbrothers.group";
+const SITE_URL = "https://dsbrothers.group/";
 const SITE_NAME = "D.S. Brothers";
 const LOGO = "/Photos/logo.jpeg";
 const BROCHURE = "/mnt/data/products.pdf"; // local uploaded file path (replace with public URL when deployed)

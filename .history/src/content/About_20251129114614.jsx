@@ -42,7 +42,6 @@ const About = () => {
             />
           </div>
         </div>
-        <hr className={style.about__divider} />
         <div className={style.about__branches}>
           <h2>Our Branches</h2>
           <p>
@@ -78,7 +77,7 @@ const About = () => {
             </p>
           </div>
         </div>
-        <hr className={style.about__divider} />
+
 
         <h2>Vision</h2>
         <p>
@@ -89,6 +88,8 @@ const About = () => {
         <p>
           To exceed expectations in quality, selection and service by understanding local tastes and continuously innovating our designs.
         </p>
+
+        <hr className={style.about__divider} />
 
       </div>
     </section>

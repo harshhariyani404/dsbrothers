@@ -42,43 +42,6 @@ const About = () => {
             />
           </div>
         </div>
-        <hr className={style.about__divider} />
-        <div className={style.about__branches}>
-          <h2>Our Branches</h2>
-          <p>
-            D.S. Brothers proudly operates from two major cities in India —
-            delivering premium handcrafted jewelry with trust, quality and tradition.
-          </p>
-
-          <div className={style.branchList}>
-            <div className={style.branch}>
-              <h3>Surat Branch</h3>
-              <p>
-                Our flagship branch and design studio located in Surat, where the brand began in 2008.
-                This location serves as the heart of our craftsmanship, custom designs and daily operations.
-              </p>
-            </div>
-
-            <div className={style.branch}>
-              <h3>Mumbai Branch</h3>
-              <p>
-                Our second branch in Mumbai focuses on expanding our collections, customer outreach,
-                and premium service, bringing D.S. Brothers’ artistry to a wider audience.
-              </p>
-            </div>
-          </div>
-        </div>
-        <hr className={style.about__divider} />
-        <div className={style.about__leaders}>
-          <div className={style.leader}>
-            <h3>Founder & CEO</h3>
-            <strong>Pritesh Domadiya</strong>
-            <p>
-              As the Founder & CEO of D.S. Brothers, Pritesh Domadiya is the guiding vision behind the brand. His expertise in jewelry craftsmanship and deep understanding of customer expectations have shaped D.S. Brothers into a trusted name for quality and timeless design. With a focus on authenticity, innovation, and precision, he continues to lead the brand toward excellence in every creation.
-            </p>
-          </div>
-        </div>
-        <hr className={style.about__divider} />
 
         <h2>Vision</h2>
         <p>
@@ -90,6 +53,26 @@ const About = () => {
           To exceed expectations in quality, selection and service by understanding local tastes and continuously innovating our designs.
         </p>
 
+        <hr className={style.about__divider} />
+        <div className={style.about__leaders}>
+          <div className={style.leader}>
+            <h3>Surat Branch Head</h3>
+            <strong>Pritesh Domadiya</strong>
+            <p>
+              Founder & CEO. A visionary combining design sensibility and business experience to build a trusted jewelry brand.
+            </p>
+          </div>
+
+          <hr className={style.about__divider} />
+
+          <div className={style.leader}>
+            <h3>Mumbai Branch Head</h3>
+            <strong>Jenish Domadiya</strong>
+            <p>
+              Co-founder & COO. Focused on operations, supplier relations and ensuring product quality at scale.
+            </p>
+          </div>
+        </div>
       </div>
     </section>
   );
