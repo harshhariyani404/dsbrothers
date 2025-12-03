@@ -196,13 +196,6 @@ const products = [
     price: "₹48000",
     image: "https://preview.redd.it/has-anyone-purchased-a-portuguese-cut-diamond-v0-87n6lumobq7d1.jpeg?width=640&crop=smart&auto=webp&s=6215e7f2b2258a24f8e40fb8d09150b6db1904e5"
   },
-  {
-    name: "Moval cut Diamond",
-    type: "Diamond",
-    description: "Moval cut diamond with unique shape.",
-    price: "₹50000",
-    image: "https://roen.nyc/cdn/shop/files/MOVAL_CUSTOM_ROEN.jpg?v=1737563316&width=1682"
-  },
 
   // ---------------- Bracelet ----------------
   {

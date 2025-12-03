@@ -159,49 +159,7 @@ const products = [
     type: "Diamond",
     description: "Bullets diamond with distinctive shape.",
     price: "₹38000",
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRF0_y39GHWosG7GQmtVMex5fseaTCqs0tHG8rWAnL1yUlMM4HlfhnDksOmKxIPz3iZifA&usqp=CAU"
-  },
-  {
-    name: "Shield Diamond",
-    type: "Diamond",
-    description: "Shield diamond with strong angular design.",
-    price: "₹40000",
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-l7a5wl07BDDBoXC7IrN1ZIAvgoWQPa5HdA&s"
-  },
-  {
-    name: "Pentagonal Diamond",
-    type: "Diamond",
-    description: "Pentagonal diamond with five-sided elegance.",
-    price: "₹42000",
-    image: "https://5.imimg.com/data5/SELLER/Default/2024/1/381997399/SQ/RO/JC/119508612/hpht-labgrown-diamond-modified-pentagon-shape-diamond-for-jewelry-lab-grown-diamond-loose.jpg"
-  },
-  {
-    name: "Hexagonal Diamond",
-    type: "Diamond",
-    description: "Hexagonal diamond with six-sided brilliance.",
-    price: "₹44000",
-    image: "https://i.etsystatic.com/30688662/c/1219/968/416/527/il/c71da2/5927855744/il_340x270.5927855744_3yw4.jpg"
-  },
-  {
-    name: "Octagonal Diamond",
-    type: "Diamond",
-    description: "Octagonal diamond with eight-sided symmetry.",
-    price: "₹46000",
-    image: "https://5.imimg.com/data5/SELLER/Default/2024/5/420738892/EN/MC/RU/221595981/img-20221215-164710-1000x1000.jpg"
-  },
-  {
-    name: "Portuguese cut Diamond",
-    type: "Diamond",
-    description: "Portuguese cut diamond with intricate facets.",
-    price: "₹48000",
-    image: "https://preview.redd.it/has-anyone-purchased-a-portuguese-cut-diamond-v0-87n6lumobq7d1.jpeg?width=640&crop=smart&auto=webp&s=6215e7f2b2258a24f8e40fb8d09150b6db1904e5"
-  },
-  {
-    name: "Moval cut Diamond",
-    type: "Diamond",
-    description: "Moval cut diamond with unique shape.",
-    price: "₹50000",
-    image: "https://roen.nyc/cdn/shop/files/MOVAL_CUSTOM_ROEN.jpg?v=1737563316&width=1682"
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRUwBs5VTTq3KmdggRn3-cGosuw_T1GusXNw&s"
   },
 
   // ---------------- Bracelet ----------------

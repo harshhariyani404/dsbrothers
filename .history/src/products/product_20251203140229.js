@@ -201,7 +201,7 @@ const products = [
     type: "Diamond",
     description: "Moval cut diamond with unique shape.",
     price: "₹50000",
-    image: "https://roen.nyc/cdn/shop/files/MOVAL_CUSTOM_ROEN.jpg?v=1737563316&width=1682"
+    image: "https://www.howardsdiamondcenters.com/products/loose-1-00-carat-moval-cut-diamond-with-gia-cert?srsltid=AfmBOoqgU9bsgFmY1dWFw88R2Ol35I1jiGF62HUt6NfyMcbcev5brIvh#6854240993335-1"
   },
 
   // ---------------- Bracelet ----------------

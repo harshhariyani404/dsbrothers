@@ -1,10 +1,9 @@
 const productype = [
-   {
-    id:1,
-    img:"https://uniglodiamonds.com/wp-content/uploads/2021/02/diamond-formed-from-coal-1000x563.jpg",
-    name:"Diamond",
-  },
   {
+  id:1,
+  img:"https://www.pngjewellers.com/cdn/shop/files/Diamond_mangalsutra.jpg?v=1746010992",
+  name:"Necklace",
+  },{
     id:2,
   img:"https://www.pngjewellers.com/cdn/shop/files/Bangles.jpg?v=1746010992",
   name:"Bracelet",
@@ -25,10 +24,9 @@ const productype = [
     name:"Ring",
   },
   {
-  id:6,
-  img:"https://www.pngjewellers.com/cdn/shop/files/Diamond_mangalsutra.jpg?v=1746010992",
-  name:"Necklace",
+    id:6,
+    img:"https://uniglodiamonds.com/wp-content/uploads/2021/02/diamond-formed-from-coal-1000x563.jpg",
+    name:"Diamond",
   }
- 
 ];
 export default productype
