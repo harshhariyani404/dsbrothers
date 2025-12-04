@@ -7,7 +7,7 @@ const productype = [
   {
     id:2,
   // img:"https://www.pngjewellers.com/cdn/shop/files/Bangles.jpg?v=1746010992",
-  img:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKoAYkS23-zCyEyNSHZRABK4r2p_gz_9t-ueBCa1WeffE54gYET0RQg4jHznjWCOT4kRk&usqp=CAU",
+  img:"https://www.pngjewellers.com/cdn/shop/files/Gold_chain.jpg?v=1746010992",
   name:"Jewellery",
   },
   // {

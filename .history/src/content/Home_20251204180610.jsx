@@ -92,7 +92,7 @@ const Home = () => {
       <HeroSection
         title="D.S. Brothers"
         names="Since 2008"
-        description="We create custom diamonds for you — unique shapes, premium quality and endless possibilities."
+        description="We create Custom Dimonds & jewelry for you — bridal sets, daily-wear pieces and custom orders."
         videoUrl="/Videos/BG.mp4"
         altText="Background video"
       />

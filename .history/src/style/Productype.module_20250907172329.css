@@ -12,8 +12,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 100px;
-  margin-top: 50px;
+  gap: 10px;
 }
 
 /* Product Card */

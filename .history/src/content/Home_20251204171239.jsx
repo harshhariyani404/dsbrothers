@@ -3,8 +3,6 @@ import { Helmet } from "react-helmet";
 import HeroSection from "../sections/HeroSection";
 import Products from "../products/Products.jsx";
 import Videos from "../products/Videos";
-import About from "./About.jsx";
-import Contact from "./Contact.jsx";
 
 const SITE_URL = "https://dsbrothers.group";
 const SITE_NAME = "D.S. Brothers";
@@ -92,15 +90,13 @@ const Home = () => {
       <HeroSection
         title="D.S. Brothers"
         names="Since 2008"
-        description="We create custom diamonds for you — unique shapes, premium quality and endless possibilities."
+        description="We create customized jewelry for you — bridal sets, daily-wear pieces and custom orders."
         videoUrl="/Videos/BG.mp4"
         altText="Background video"
       />
 
       {/* <Videos /> */}
       <Products />
-      <About />
-      <Contact />
     </>
   );
 };
