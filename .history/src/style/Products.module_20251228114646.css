@@ -119,23 +119,24 @@
 
 @media (max-width: 600px) {
   .productGrid {
-    grid-template-columns: 1fr;
-    gap: 1.2rem;
+    grid-template-columns: repeat(2, 1fr); /* 2 columns on mobile */
+    gap: 1rem;
   }
+
   .imgWrap,
   .productCard > img {
-    height: 160px; /* larger on mobile too */
+    height: 150px; /* adjust height for smaller screens */
   }
+
   .content {
-    padding: 0.7rem;
+    padding: 0.6rem;
   }
-}
-.categoryHeading {
-  font-size: 28px;
-  margin: 2rem 0 1rem;
-  font-weight: bold;
-  color: #333;
-  border-left: 6px solid gold;
-  padding-left: 10px;
-  text-align: center;
+
+  .content h3 {
+    font-size: 0.9rem;
+  }
+
+  .content p {
+    font-size: 0.75rem;
+  }
 }
