@@ -1,13 +1,14 @@
 const productype = [
    {
     id:1,
-    img:"https://uniglodiamonds.com/wp-content/uploads/2021/02/diamond-formed-from-coal-1000x563.jpg",
+    img:"https://plus.unsplash.com/premium_photo-1678727212341-eb0a264a6800?auto=format&fit=crop&q=60&w=600",
     name:"Diamond",
   },
   {
     id:2,
-  img:"https://www.pngjewellers.com/cdn/shop/files/Bangles.jpg?v=1746010992",
-  name:"Bracelet",
+  // img:"https://www.pngjewellers.com/cdn/shop/files/Bangles.jpg?v=1746010992",
+  img:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKoAYkS23-zCyEyNSHZRABK4r2p_gz_9t-ueBCa1WeffE54gYET0RQg4jHznjWCOT4kRk&usqp=CAU",
+  name:"Jewellery",
   },
   // {
   //   id:3,

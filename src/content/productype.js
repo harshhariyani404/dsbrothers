@@ -1,7 +1,7 @@
 const productype = [
    {
     id:1,
-    img:"https://uniglodiamonds.com/wp-content/uploads/2021/02/diamond-formed-from-coal-1000x563.jpg",
+    img:"https://images.unsplash.com/photo-1551947391-249dcb8ed976?auto=format&fit=crop&q=80&w=1074",
     name:"Diamond",
   },
   {
